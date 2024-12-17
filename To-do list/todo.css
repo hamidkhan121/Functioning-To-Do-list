@@ -1,0 +1,106 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling to center the content */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Align the elements vertically */
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+/* Styling for the main container (form area) */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px; /* Space between container and container1 */
+    width: 400px; /* Wider width for the main container */
+}
+
+/* Styling for the input field */
+.input {
+    width: 100%; /* Make input field take full width of the container */
+    height: 50px;
+    background-color: rgb(218, 218, 218);
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Styling for the button */
+.button {
+    background-color: hwb(211 0% 0%);
+    border: none;
+    color: white;
+    padding: 5px 11px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    border-radius: 12px;
+    transition: 1s;
+}
+
+/* Styling for the container that holds the tasks */
+.container1 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: initial;
+    width: 620px; /* Slightly narrower width */
+}
+
+/* Title styling for both containers */
+.title {
+    margin-bottom: 20px;
+}
+
+/* Bullets list styling */
+.bullets {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Center the content vertically and space it out */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* Adjust the spacing between elements */
+h3 {
+    margin-top: 20px;
+}
